@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="phone.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light w-100" style=" z-index: 2;">
+        <div class="container-fluid">
+            <!-- <a id='bar' class="nav-link active fw-bold  fs-5" aria-current="page" href="#">HOME</a> -->
+            <li class="nav-item dropdown">
+              <a id='bar' class="nav-link dropdown-toggle fs-5 fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Home
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="index.html">Home</a></li>
+                <li><a class="dropdown-item" href="about.html">About</a></li>
+                <li><a class="dropdown-item" href="#">Contact Us</a></li>
+                <!-- <li><hr class="dropdown-divider"></li> -->
+                <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+              </ul>
+            </li>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a id='bar' class="nav-link fw-bold fs-5" href="#">Dinning</a>
+              </li>
+              <li class="nav-item">
+                <a id='bar' class="nav-link fw-bold fs-5" href="meeting.html">Meetings & Banquetting</a>
+              </li>
+              
+            </ul>
+            <img class="bg-warning" src="image/header.jpg" alt="">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+              <a id='recreate' class="nav-link active fw-bold  fs-5" aria-current="page" href="#">Recreational Service</a>
+              </li>
+              <li class="nav-item">
+                <a id="eve" class="nav-link fw-bold fs-5" href="#">Events</a>
+              </li>
+              <li class="nav-item">
+                <a id="gall" class="nav-link fw-bold fs-5" href="gallery.html">Gallery</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container">
+        <div class="row">
+            <div id="chec" class="col-lg-8 shadow mx-auto rounded mt-5 my-5">
+                <h1 class="text-center mt-5 text-light">HOTEL BOOKING</h1>
+                <div class="row my-4">
+                    <div class="col-lg-6">
+                        <label class="text-light" for=""><b> Date Check-in</b></label>
+                        <input type="date" id="dateIn" class="form-control" placeholder="Date Check-in" required>
+                    </div>
+                    <div class="col-lg-6">
+                        <label class="text-light" for=""><b>Date Check-out</b></label>
+                        <input type="date" id="dateOut" class="form-control" placeholder="Date Check-out" required>
+                    </div>
+                </div>
+                <div class="row my-4">
+                    <div class="col-lg-6">
+                        <label class="text-light" for=""><b>Firstname</b></label>
+                        <input type="text" id="firstname" class="form-control" required>
+                    </div>
+                    <div class="col-lg-6">
+                        <label class="text-light" for=""><b>Lastname</b></label>
+                        <input type="text" id="lastname" class="form-control" required>
+                    </div>
+                </div>
+                <div class="row my-4">
+                    <div class="col-lg-6">
+                        <label class="text-light" for=""><b>Adults*</b></label>
+                        <select class="form-control" id="adult">
+                            <option value="">2</option>
+                            <option value="Savings">1</option>
+                            <option value="Current">2</option>
+                            <option value="Cooperate">3</option>
+                        </select>
+                    </div>
+                    <div class="col-lg-6">
+                     <label class="text-light" for=""><b>No of Rooms*</b></label>
+                        <input type="number" class="form-control" placeholder="number of rooms" id="room" required>
+
+                         <!-- <label class="text-light" id="room" for=""><b>No of Rooms*</b></label>
+                        <select class="form-control" id="room">
+                            <option value="">2</option>
+                            <option id="room" value="Savings">1</option>
+                            <option value="Current">2</option>
+                            <option value="Current">3</option>
+                            <option value="Cooperate">4</option>
+                            <option value="Cooperate">5</option>
+                            <option value="Cooperate">6</option>
+                            <option value="Cooperate">7</option>
+                            <option value="Cooperate">8</option>
+                            <option value="Cooperate">9</option> -->
+                        <!-- </select>  -->
+                    </div>
+                </div>
+                <div class="row my-4">
+                    <div class="col-lg-6">
+                        <label class="text-light" for=""><b>No of Chidren*</b></label>
+                        <select class="form-control" id="">
+                            <option value="">2</option>
+                            <option value="Savings">1</option>
+                            <option value="Current">2</option>
+                            <option value="Cooperate">3</option>
+                        </select>
+                    </div>
+                    <div class="col-lg-6">
+                        <label class="text-light" for=""><b>Are you travelling for work?*</b></label>
+                        <select class="form-control" id="">
+                            <option value="">Yes/No</option>
+                            <option value="Savings">Yes</option>
+                            <option value="Current">No</option>
+                            
+                        </select>
+                    </div>
+                </div>
+              
+                <button onclick="check()" class="btn btn-light w-100 my-4 fw-bold">Check Availability</button>
+            </div>
+        </div>
+      </div>
+
+      <script>
+        let allDetails = []
+        let pricey = 50000
+        let time = new Date().toLocaleTimeString()
+        let date = new Date().toLocaleDateString()
+        const weekday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday","Friday","Saturday"]
+        const check =()=>{
+          // let dateAdded = `${weekDay}, ${day}-${month}-${year}.`
+          // let year = datey.getFullYear()
+          // let month = datey.getMonth() + 1
+          // let day = datey.getDate()
+          // let weekDay = weekday[datey.getDay()]
+          // let add = Number( dateOut.value) - Number( dateIn.value)
+          // let dateIn = document.getElementById("dateIn") 
+          // let dateOut = document.getElementById("dateOut") 
+          
+          if(dateIn.value == "", dateOut.value == "", firstname.value == "", firstname.value == "", room.value == ""){
+            alert("Fill out the information")
+          } else if(dateIn.value > dateOut.value){
+              alert("date check in should not be higher than date check out") 
+            } else{
+
+              let major = {
+                dateIn: dateIn.value,
+                dateOut: dateOut.value,
+                firstname: firstname.value,
+                lastname: lastname.value,
+                rooms: room.value,
+                price: pricey,
+                adult: adult.value,
+                amount: room.value * pricey,
+                transactionDetails: [ {
+                  date,
+                  time,
+                  weekday,
+                  // yeary:year,
+                  // dateAdd:dateAdded,
+                  // here:add
+                }]
+              }
+              let add1 = dateOut.value.split("-")
+              let add2 = dateIn.value.split('-')
+               let add5 = Number( add1 [2]) - Number( add2 [2])
+               console.log(add5);
+               // console.log(add1);
+               // console.log(add2);
+              // console.log(add1 [2]);
+              let add4 = room.value * pricey * Number(add1 [2])
+              console.log(add4);
+
+            // console.log(add1);
+            // console.log(add2);
+            // console.log(dateIn.value);
+            // console.log();
+            firstname.value = ""
+            lastname.value = ""
+            room.value = ""
+            dateIn.value = ""
+            dateOut.value = ""
+            
+       
+            allDetails.push(major)
+            console.log(allDetails);
+            localStorage.setItem("hotelCheck", JSON.stringify(allDetails))
+            window.location.href = "receipt.html" 
+          }
+          
+        
+        }
+        
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>

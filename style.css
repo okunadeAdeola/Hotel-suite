@@ -1,0 +1,546 @@
+body {
+    overflow-x: hidden;
+    
+}
+#bar:hover, #recreate:hover, #eve:hover, #gall:hover{
+    color: rgb(179,148,113);
+}
+#bar{
+    margin-left: 20px;
+    color: rgb(4,48,64);
+    
+}
+#img{
+    margin-left: 40px;
+    height: 50px;
+    width: 200px;
+}
+#recreate{
+    margin-left: 10px;
+    color: rgb(4,48,64);
+}
+#eve{
+    margin-left: -0px;
+    color: rgb(4,48,64);
+}
+#gall{
+    margin-left: -0px;
+    color: rgb(4,48,64);
+}
+#check{
+    background-color: rgb(4,48,64);
+    width: 100%;
+    height: 50vh;
+}
+#too{
+    margin-left: 320px;
+}
+#arrive{
+    color: rgb(179,148,113);
+    font-size: 20px;
+    margin-top: 100px;
+    margin-left: -100px;
+    font-weight: bold;
+}
+#arrival{
+    color: rgb(85,85,85);
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: -100px;
+}
+#arrivalli{
+    color: white;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: -110px;
+}
+#arrivall{
+    color: white;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: -100px;
+}
+#avail{
+    position: absolute;
+    top: 129%;
+    left: 40%;
+    background-color: rgb(179,148,113);
+    color: white;
+    font-weight: bold;
+    width: 18%;
+    cursor: pointer;
+    text-decoration: none;
+    /* padding: 10px; */
+    padding-left: 35px;
+    height:50px;
+    padding-top: 10px;
+    font-size: 18px;
+}
+#avail:hover{
+    color: rgb(4,48,64);
+}
+.well{
+    color: rgb(4,48,64);
+    font-weight: bold;
+    font-size: 40px;
+}
+.ek{
+    color: rgb(179,148,113);
+    font-weight: bold;
+    font-size: 40px;
+}
+#wellek{
+    margin-top: 50px;
+}
+#cardone{
+    color: rgb(179,148,113);
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 50px;
+}
+#cardtwo{
+    color: rgb(4,48,64);
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: 30px;
+}
+#cardthree, #cardfour, #cardfive{
+    color: rgb(4,48,64);
+    margin-left: 50px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#btn{
+    background-color: burlywood;
+    width: 200px;
+    height: 50px;
+    color: white;
+    font-weight: bold;
+    border: 0px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+#btn:hover{
+    border: 2px solid rgb(4,48,64);
+    background-color: white;
+    color: rgb(4,48,64);
+}
+#im{
+    margin-top: 80px;
+
+    margin-left: 20px;
+   
+}
+
+#gard{
+    color: white;
+    margin-left: 20px;
+    position: absolute;
+    margin-top: -5%;
+}
+#garde{
+    color: rgb(179,148,113);
+    margin-left: 20px;
+    position: absolute;
+    margin-top: -4%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#btnn{
+    background-color: rgb(179,148,113);
+    width: 200px;
+    height: 50px;
+    color: white;
+    font-weight: bold;
+    border: 0px;
+    margin-left: 50px;
+    font-size: 18px;
+}
+#recreation{
+    background-color: rgb(28,32,39);
+    width: 100%;
+    height: 70vh;
+    
+}
+
+#four{
+   
+    /* position: absolute; */
+    /* animation: four 20s ease-out infinite;
+    animation-delay: 0s; */
+    margin-left: -5px;
+}
+/* @keyframes four {
+    0% {
+        right: 0px;
+    }
+    100% {
+        right: 100%;
+
+    } 
+} */
+#five{
+   
+    /* position: absolute;
+    animation: five 20s ease-out infinite;
+    animation-delay: 0s; */
+    margin-left: 220px;
+}
+  /* @keyframes five {
+    0% {
+        right: 0px;
+    }
+    100% {
+        right: 210%;
+
+    } 
+}   */
+#six{
+    margin-left: 450px;
+    /* position: absolute;
+    animation: six 20s ease-out infinite;
+    animation-delay: 0s; */
+}
+/* @keyframes six {
+    0% {
+        right: 0px;
+    }
+    100% {
+        right: 10%;
+
+    } 
+} */
+#seven{
+    margin-left: 670px;
+    /* position: absolute;
+    animation: seven 20s ease-out infinite;
+    animation-delay: 0s; */
+}
+
+ /* @keyframes seven {
+    0% {
+        right: 0px;
+    }
+    100% {
+        right: 100%;
+
+    }  
+ }  */
+ #marg{
+    margin-left: 140px;
+    margin-top: 20px;
+ }
+
+ #recreatioon{
+    background-color: rgb(248,248,248);
+    width: 100%;
+    height: 100%;
+    
+}
+#sky, #rest, #lagoo{
+    color: rgb(4,48,64);
+    font-weight: bold;
+    font-size: 27px
+}
+#skytwo, #resttwo, #lagootwo{
+    color: rgb(4,48,64);
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+#test{
+    margin-left: 100px;
+}
+#skythree, #restthree, #lagoothree{
+    color: rgb(4,48,64);
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#skythree:hover, #restthree:hover, #lagoothree:hover{
+    
+    color: rgb(179,148,113);
+    
+}
+#skythree:hover, #restthree:hover, #lagoothree:hover{
+    
+    color: rgb(179,148,113);
+    
+}
+#testyy{
+    margin-left: 40px;
+}
+#testyyy{
+    margin-left: 80px;
+}
+
+#marg1{
+    margin-left: 100px;
+    margin-top: 90px;
+ }
+
+ #recreatioon1{
+    background-color: rgb(248,248,248);
+    width: 100%;
+    height: 100%;
+    
+}
+#sky1, #rest1, #lagoo1{
+    color: rgb(4,48,64);
+    font-weight: bold;
+    font-size: 27px
+}
+#skytwo1, #resttwo1, #lagootwo1{
+    color: rgb(4,48,64);
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#test1{
+    margin-left: 100px;
+}
+#skythree1, #restthree1, #lagoothree1{
+    color: rgb(4,48,64);
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#skythree1:hover, #restthree1:hover, #lagoothree1:hover{
+    color: rgb(179,148,113);
+    
+}
+#skythree1:hover, #restthree1:hover, #lagoothree1:hover{
+    color: rgb(179,148,113);
+}
+#testy1{
+    margin-left: -100px;
+    
+}
+#testyy1{
+    margin-left: -50px;
+}
+#testyyy1{
+    margin-left: -10px;
+}
+#email{
+    margin-left: 100px;
+}
+#question{
+    height: 80vh;
+}
+#add{
+    color: rgb(4,48,64);
+    margin-top: 50px;
+}
+#ifo{
+    color: rgb(179,148,113);
+   margin-left: 150px;
+    margin-top: 20px;
+}
+#slow{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+#ques{
+    color: rgb(4,48,64);
+    font-size: 50px;
+    font-weight: bold;
+    
+}
+#field{
+    color: rgb(4,48,64);
+    margin-left: 30px;
+}
+#put{
+    width: 90%;
+    margin-left: 30px;
+    border: 1px solid rgb(4,48,64);
+}#addressone{
+    width: 90%;
+    margin-left: 30px;
+    border: 1px solid rgb(4,48,64);
+}
+#putt{
+    border: 1px solid rgb(4,48,64);
+    margin-left: 30px;
+    width: 90%;
+    height: 20vh;
+}
+::placeholder{
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+#btn2{
+    background-color: burlywood;
+    width: 200px;
+    height: 50px;
+    color: white;
+    font-weight: bold;
+    border: 0px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+#footer{
+    background-color: rgb(30,37,41);
+    width: 100vw;
+    height: 60vh;
+    margin-left: -25px;
+}
+li{
+    list-style-type: none;
+}
+#gallery{
+    color: white;
+    margin-left: 100px;
+}
+#a:hover{
+    color: rgb(179,148,113);
+    transform: scale(0.9);
+    font-weight: bold;
+    
+}
+#a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+#foot{
+    margin-left: 100px;
+}
+#news{
+    margin-top: 50px;
+    color: rgb(179,148,113);
+}
+
+
+#commented{
+ margin-top: 50px;   
+}
+#footcom{
+    background-color: blue;
+    width: 100vw;
+    margin-left: -120px;
+    height: 60vh;
+}
+#ton{
+    margin-top: -150px;
+}
+#fieldtwo{
+    color: rgb(4,48,64);
+    margin-left: 30px;
+    margin-top: 80px;
+}
+#fieldtwoo{
+    
+    margin-left: 200px;
+    /* text-decoration: none; */
+    margin-top: 60px;
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+}
+#putttwo{
+    height: 20vh;
+}
+#miit{
+    position: absolute;
+    top: 28%;
+    margin-left: 130px;
+}
+#hommie{
+    position: absolute;
+    top: 38%;
+    font-size: 18px;
+    margin-left: 130px;
+}
+#hom{
+    text-decoration: none;
+    color: white;
+}
+#vail{
+    background-color: burlywood;
+    width: 200px;
+    height: 50px;
+    color: white;
+    font-weight: bold;
+    border: 0px;
+    /* margin-left: 50px; */
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none;
+}
+#vail:hover{
+    border: 2px solid rgb(4,48,64);
+    background-color: white;
+    color: rgb(4,48,64);
+}
+#image3{
+  margin-top: 100px;
+  margin-left: 50px;
+}
+#car{
+  margin-top: 130px;
+}
+#color{
+    color: rgb(4,48,64);
+  }
+  #colo{
+    color: rgb(4,48,64);
+    font-size: 18px;
+  }
+  #foote{
+    
+      background-color: rgb(30,37,41);
+      width: 100vw;
+      height: 60vh;
+      margin-left: -125px;
+  
+  }
+  #aa:hover{
+      color: rgb(179,148,113);
+      transform: scale(0.9);
+      font-weight: bold;
+      
+  }
+  #footi{
+      margin-left: 100px;
+  }
+  #aa{
+      text-decoration: none;
+      color: white;
+      font-size: 15px;
+  }
+  #barr{
+      margin-left: 20px;
+      color: rgb(4,48,64);
+      text-decoration: none;
+  }
+  #galleryy{
+      color: white;
+      margin-left: 100px;
+  }
+  #shottwo{
+    color: rgb(179,148,113);
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  #gos{
+    color: rgb(4,48,64);
+    text-decoration: none;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: bolder;
+  }
+  #gos:hover{
+    color: rgb(179,148,113);
+  }
+  #chec{
+    background-color: rgb(4,48,64);;
+  }
+  #disp{
+    margin-top: 200px;
+  }
+  #disp{
+    margin-top: -10px;
+  }
+  #billing{
+    background-color: rgb(4,48,64);
+  }
+#group{
+    color: rgb(4,48,64);
+}

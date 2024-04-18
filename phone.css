@@ -1,0 +1,362 @@
+
+@media(max-width: 600px){  
+
+    #check{
+     
+      width: 100%;
+    }
+    #too{
+        margin-left: 0px;
+    }
+    #arrive, #arrival, #arrive, #arrivall{
+      display: none;
+    }
+    #avail{
+      margin-top: -670px;
+      margin-left: -50px;
+      font-size: 12px;
+      padding-left: 30px;
+      height:40px;
+      padding-top: 10px;
+      background-color: rgb(10, 9, 7);
+      color: white;
+      font-weight: bold;
+      width: 50%;
+      cursor: pointer;
+      text-decoration: none;
+      
+    }
+    #check{
+      
+      width: 100%;
+      height: 12vh;
+    }
+    .well{
+      color: rgb(4,48,64);
+      font-weight: bold;
+      font-size: 30px;
+  }
+  .ek{
+      color: rgb(179,148,113);
+      font-weight: bold;
+      font-size: 30px;
+  }
+  #wellek{
+      margin-top: 50px;
+  }
+  #im{
+    margin-top: 70px;
+    margin-left: -5px;
+   
+  }
+  #cardthree, #cardfour, #cardfive{
+    color: rgb(4,48,64);
+    margin-left: -5px;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  #cardone{
+    color: rgb(179,148,113);
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 0px;
+  }
+  #cardtwo{
+    color: rgb(4,48,64);
+    margin-left: 0px;
+    font-weight: bold;
+    font-size: 40px;
+  }
+  #cardy{
+    
+    width: 100%;
+  }
+  #home{
+    position: fixed;
+    width: 55%;
+    z-index: 1; 
+    background-color: burlywood;
+    
+    margin-top: -10px;
+  }
+  #bar{
+    margin-left: 0px;
+    
+  }
+  #img{
+    margin-left: -10px;
+  }
+  #recreate{
+    margin-left: 0px;
+  }
+  #gard{
+    color: white;
+    margin-left: 20px;
+    position: absolute;
+    margin-top: -15%;
+}
+#garde{
+    color: rgb(179,148,113);
+    margin-left: 20px;
+    position: absolute;
+    margin-top: -20%;
+    display: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+  
+#four{
+    margin-left: -5px;
+}
+#five{
+  
+    margin-left: 0px;
+}
+ 
+#six{
+    margin-left: 0px;
+   
+}
+
+#seven{
+    margin-left: 0px;
+  
+  }
+  #recreation{
+    background-color: rgb(28,32,39);
+    width: 100%;
+    height: 100%;
+    
+}
+#alert{
+    width: 100%;
+}
+#marg{
+  margin-left: 0px;
+  margin-top: 20px;
+  display: none;
+}
+
+#recreatioon{
+  background-color: rgb(248,248,248);
+  width: 100%;
+  height: 100%;
+  
+}
+#sky, #rest, #lagoo{
+  color: rgb(4,48,64);
+  font-weight: bold;
+  font-size: 27px
+}
+#skytwo, #resttwo, #lagootwo{
+  color: rgb(4,48,64);
+  font-size: 17px;
+  font-family: 'Courier New', Courier, monospace;
+  
+}
+#test{
+  margin-left: 0px;
+}
+#skythree, #restthree, #lagoothree{
+  color: rgb(4,48,64);
+  font-size: 17px;
+  font-family: 'Courier New', Courier, monospace;
+
+  
+}
+#testy{
+  width: 100%;
+  /* background-color: red; */
+}
+#testyy{
+  width: 100%;
+ 
+  margin-left: -0px;
+}
+#testyyy{
+  width: 100%;
+  
+  margin-left: -0px;
+}
+
+
+#marg1{
+  margin-left: 0px;
+  margin-top: 20px;
+  display: none;
+}
+
+#recreatioon1{
+  background-color: rgb(248,248,248);
+  width: 100%;
+  height: 100%;
+  
+}
+#sky1, #rest1, #lagoo1{
+  color: rgb(4,48,64);
+  font-weight: bold;
+  font-size: 27px
+}
+#skytwo1, #resttwo1, #lagootwo1{
+  color: rgb(4,48,64);
+  font-size: 17px;
+  font-family: 'Courier New', Courier, monospace;
+  
+}
+
+#skythree1, #restthree1, #lagoothree1{
+  color: rgb(4,48,64);
+  font-size: 17px;
+  font-family: 'Courier New', Courier, monospace;
+
+  
+}
+#testy1{
+  width: 100%;
+  margin-left: -10px;
+}
+#testyy1{
+  width: 100%;
+  margin-left: -10px;
+ 
+}
+#testyyy1{
+  width: 100%;
+  margin-left: -15px;
+}
+#email{
+  margin-left: 10px;
+  width: 100%;
+}
+#comment{
+  margin-top: 20px;
+  margin-left: 0px;
+}
+#ifo{
+  color: rgb(179,148,113);
+ margin-left: 50px;
+  margin-top: 20px;
+}
+#footer{
+  background-color: rgb(30,37,41);
+  width: 100vw;
+  height: 150%;
+  margin-top: -50px;
+  margin-left: -26px;
+}
+#gallery{
+  color: white;
+  margin-left: 0px;
+  
+}
+#a:hover{
+  color: rgb(179,148,113);
+  transform: scale(0.9);
+  font-weight: bold;
+  
+}
+#arrivalli{
+  display: none;
+}
+
+li{
+  list-style-type: none;
+}
+#letter{
+  margin-top: 700px;
+  
+}
+#news{
+  margin-top: -700px;
+ 
+}
+#up{
+  margin-top: 700px;
+
+}
+#a{
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+#foot{
+  margin-left: 0px;
+  margin-top: -150px;
+}
+#news{
+  margin-top: -100px;
+  color: rgb(179,148,113);
+}
+#image{
+  margin-top: 100px;
+  margin-left: 50px;
+  width: 100%;
+}
+#event{
+    width: 100%;
+}
+#image3{
+  margin-top: 100px;
+  margin-left: 0px;
+  width: 100%;
+}
+#car{
+  margin-top: -30px;
+  margin-left: -10px;
+}
+#foote{
+  background-color: rgb(30,37,41);
+  width: 100vw;
+  height: 100%;
+  margin-top: 50px;
+  margin-left: -10px;
+  color: white;
+}
+#upp{
+  margin-top: 700px;
+
+}
+#footi{
+  margin-left: 0px;
+}
+#aa{
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  margin-left: 0px;
+}
+#galleryy{
+  color: white;
+  margin-left: 0px;
+}
+#miit{
+  position: absolute;
+  top: 28%;
+  margin-left: 10px;
+  margin-top: -50px;
+}
+#hommie{
+  position: absolute;
+  top: 38%;
+  font-size: 18px;
+  margin-left: 20px;
+  margin-top: -50px;
+}
+#hom{
+  text-decoration: none;
+  color: white;
+  margin-top: -50px;
+ 
+}
+#footie{
+  margin-top: 0px;
+  padding: 20px;
+  width: 100%;
+  margin-left: 2px;
+}
+#line{
+  display: none;
+}
+#imagethree{
+  width: 100%;
+  margin-left: -10px;
+}
+}
